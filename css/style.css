@@ -163,8 +163,11 @@ body {
   margin: 0 auto;
 }
 
-.logo {
+.main-header {
   float: left;
+}
+
+.logo {
   font-weight: 300;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
@@ -210,16 +213,16 @@ body {
   padding: 30px 0px 70px 0px;
   margin: 0 auto;
 }
+
 .title-second {
   text-align: center;
   line-height: 32px;
   font-weight: 900;
   font-size: 48px;
   letter-spacing: -0.02em;
-
   font-family: "Roboto", sans-serif;
   color: #515151;
-  padding-bottom: 92px;
+  margin-bottom: 94px;
   text-transform: uppercase;
 }
 
@@ -278,7 +281,7 @@ body {
   text-align: center;
   background-color: rgba(255, 255, 255, .44);
   min-width: 54px;
-  letter-spacing: 1px;
+  letter-spacing: -0.2px;
 }
 
 .link-product-name {
@@ -286,7 +289,7 @@ body {
   line-height: 32px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  letter-spacing: 1px;
+  letter-spacing: -0.2px;
   height: 100%;
 }
 
@@ -300,19 +303,12 @@ body {
 
 .news-article-wrapper {
   max-width: 1110px;
-  padding: 4px 0px 46px 0px;
-  margin: 0px auto;
+  padding: 8px 0px 81px 0px;
+  margin: 0px auto 0px auto;
 }
 
 .news-title-second {
-  text-align: center;
-  line-height: 32px;
-  font-weight: 900;
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  color: #515151;
-  padding-bottom: 92px;
-  text-transform: uppercase;
+  margin-bottom: 82px;
 }
 
 .new-image {
@@ -344,11 +340,7 @@ body {
 }
 
 .news-card:nth-last-of-type(n+2) {
-  margin: 0px 30px 30px 0px;
-}
-
-.news-card:last-of-type {
-  margin: 0px 0px 30px 0px;
+  margin: 0px 30px 0px 0px;
 }
 
 .news-text {
