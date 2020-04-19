@@ -1,0 +1,379 @@
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+font-family: 'Myriad Pro Bold';
+src: url("../fonts/MyriadPro-Bold.eot");
+src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"),
+url("../fonts/MyriadPro-Bold.woff") format("woff"),
+url("../fonts/MyriadPro-Bold.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: -0.02em;
+  background-color: rgb(255, 255, 255);
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-wrapper {
+  max-width: 1110px;
+  padding: 34px 0px 70px 0px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  line-height: 32px;
+  color: #555252;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+.main-menu {
+  padding-top: 6px;
+  float: right;
+}
+.nav-item {
+  list-style: none;
+  float: left;
+  letter-spacing: 0.5px;
+
+}
+.nav-item:nth-last-of-type(n + 2) {
+  margin-right: 32px;
+}
+.nav-link {
+  font-size: 14px;
+  line-height: 11px;
+  font-weight: 700;
+  font-family: "Myriad Pro Bold", sans-serif;
+  color: #0f0101;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+.main-section {
+  max-width: 1110px;
+  padding: 30px 0px 70px 0px;
+  margin: 0 auto;
+}
+.title-second {
+  text-align: center;
+  line-height: 32px;
+  font-weight: 900;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+
+  font-family: "Roboto", sans-serif;
+  color: #515151;
+  padding-bottom: 92px;
+  text-transform: uppercase;
+}
+
+.news-title-wrapper {
+  padding-bottom: 82px;
+}
+
+.title-second::after {
+  display: block;
+  content: "";
+  width: 164px;
+  height: 7px;
+  margin: 32px auto 0px;
+  background-color: rgb(26, 188, 156);
+}
+
+.card-product {
+  float: left;
+  background-color: #e9f0fd;
+  width: 255px;
+}
+
+.image-product {
+  display: block;
+}
+
+.card-product:nth-last-of-type(n+2) {
+    margin: 0px 30px 30px 0px;
+}
+
+.card-product:last-of-type {
+    margin: 0px 0px 30px 0px;
+}
+
+.card-footer {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 50, 50);
+  width: 255px;
+  min-height: 40px;
+}
+.card-name {
+  float: left;
+  min-width: 164px;
+  padding: 4px 0px 4px 14px;
+  height: 100%;
+}
+
+.card-price {
+  float: right;
+  line-height: 26px;
+  padding: 7px 12px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.44);
+  min-width: 54px;
+  letter-spacing: 1px;
+}
+
+.link-product-name {
+  display: block;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  letter-spacing: 1px;
+  height: 100%;
+}
+
+.card-product:hover .card-footer {
+  background-color: rgb(26, 188, 156);
+}
+
+.card-product:hover .card-price {
+  background-color: rgba(255, 255, 255, 0,44);
+}
+
+.news-article-wrapper {
+  max-width: 1110px;
+  padding: 4px 0px 46px 0px;
+  margin: 0px auto;
+}
+
+.news-title-second {
+  text-align: center;
+  line-height: 32px;
+  font-weight: 900;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  color: #515151;
+  padding-bottom: 92px;
+  text-transform: uppercase;
+}
+
+.new-image {
+  margin-bottom: 5px;
+}
+
+.news-title-third {
+  max-width: 320px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  padding-bottom: 22px;
+}
+
+.news-title-third::after {
+  display: block;
+  content: "";
+  margin-top: 9px;
+  background-color: rgb(78, 198, 171);
+  width: 136px;
+  height: 3px;
+}
+
+.news-card {
+  float: left;
+  max-width: 350px;
+}
+
+.news-card:nth-last-of-type(n+2) {
+  margin: 0px 30px 30px 0px;
+}
+
+.news-card:last-of-type {
+  margin: 0px 0px 30px 0px;
+}
+
+.news-text {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  letter-spacing: -0.02em;
+  line-height: 26px;
+  margin-bottom: 11px;
+}
+
+.link-news {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+  width: 159px;
+  height: 51px;
+  cursor: pointer;
+}
